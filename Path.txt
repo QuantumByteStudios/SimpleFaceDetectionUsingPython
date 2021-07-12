@@ -1,0 +1,4 @@
+Faces\Modiji.jpg
+Faces\BillGates.jpg
+Faces\ElonMusk.jpg
+Faces\17faces.jpg
