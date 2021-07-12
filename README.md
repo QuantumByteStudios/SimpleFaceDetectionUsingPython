@@ -4,6 +4,6 @@ Simple Face Detection Using Python :)
 Using<br>
 "open cv"
 
-<img src="http://quantumbyteofficial.tech/QuantumDrive/GitDrive/facedetect-gif.gif">
+<img src="https://miro.medium.com/max/1942/0*lKD8sDQ9fAXt70VC.gif">
 <h1>Screenshot</h1>
 <img src="http://quantumbyteofficial.tech/QuantumDrive/GitDrive/SimpleFaceDetectionUsingPython.png">
