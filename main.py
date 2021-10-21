@@ -8,7 +8,7 @@ introtext = ('''
 |_|  \__,_|\___\___|____/ \___|\__\___|\___|\__\___/|_|
 
 Detects Faces With accuracy of 80% 
-\n\nCreated By Harshit Raheja and Sumesh Mohanty\n\n_______________________________________________________________
+\n\nCreated By QuantumByteStudios\n\n_______________________________________________________________
 	''')
 print(introtext)
 
