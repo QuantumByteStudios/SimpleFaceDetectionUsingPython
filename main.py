@@ -1,5 +1,7 @@
 import cv2
+import os
 
+system("clear") # Linux Clear Command if Error Comment this Line!
 introtext = ('''
  _____              ____       _            _
 |  ___|_ _  ___ ___|  _ \  ___| |_ ___  ___| |_ ___  _ __
@@ -14,8 +16,6 @@ print(introtext)
 
 #Get input of Image name or Path of image
 image_name_with_extension = input("Enter the Name or Path of Image: ")
-
-
 
 # Load the cascade
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
@@ -39,21 +39,13 @@ font = cv2.FONT_HERSHEY_SIMPLEX # font
 # Using cv2.putText() method
 image = cv2.putText(img, 'FaceDetected!', fontcord, font, fontScale, fontcolor, fontthickness, cv2.LINE_AA)
 
-
-
 # Prints Image Details
 print("\n")
 print(f"Height, Width and Number of Channels in image(RGB)  is: {img.shape}")
 
-
-
 # Draw rectangle around the faces
 for (x, y, w, h) in faces:
     cv2.rectangle(img, (x, y), (x + w, y + h), (89, 179, 3), 3)
-
-
-
-
 
 
 # Display the output
