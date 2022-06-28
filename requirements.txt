@@ -1,3 +1,3 @@
-numpy==1.15.4
+numpy==1.22.0
 opencv-python==3.4.3.18
 #install it before use
